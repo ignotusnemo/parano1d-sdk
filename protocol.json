@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/ignotusnemo/parano1d",
+  "tag": "v2.1.0",
+  "commit": "848209d5db75137483cb41a94b310ad11463473f",
+  "protocol_version": "2.1.0",
+  "owner_authorization_version": 4,
+  "mainnet_activation_height": 279370,
+  "files": {
+    "noid_rpc/src/api.rs": "e0373aa2287e3e325cc39bd606c4f66daae0c208bfdcb3f1afe8c5caaff7de89",
+    "noid_rpc/src/native_types.rs": "b2c5e1047b93c5de8135c291e1df03d92e1b631d1d6746ac63142f421a202afd",
+    "noid_rpc/src/client_types.rs": "12dde20c30c9fc74c1c7be592a7591e6c188c6170dc4212897f9f49619a56601",
+    "noid_tx/src/authorization_version.rs": "63950fc653165f9c765849eff0a6f096c22f174a8ee7cb595beef5f24a7dafd9",
+    "docs/reference/client-native-rpc.md": "0a582948f01d22c8ab2aaefcd3d3df31f9b8c61ce33ee540b13ce2d62fa05314",
+    "noid_chain/src/storage/native_payloads.rs": "5e89626430160583938b78a8c579ee127a2d261b5368367bf950bef4f410cc60",
+    "noid_chain/src/block_header.rs": "b6ddabeaaded9a3303a2e74009276a4553754b845af3a40c6b1f2ada49f98708",
+    "noid_chain/src/tx_tree.rs": "e97e76d3956fc4ddf58f0ec59a0c516c001b34b0ce6ea779722f0ded85f410e8",
+    "noid_chain/src/consensus/receipt.rs": "bbf106ddbada91a5fdaac470d4f088f855d94adc5bd37f5d67f9ce99a785b2d3",
+    "noid_chain/src/consensus/receipt/native.rs": "d7205324f343cde80706378657b1a30c1b28e1c853188b0bbb3113d3b8b6a9a3",
+    "noid_gui/src/market_data.rs": "3ba4990854a51dbed469b36407bc6c9bee5154b55d3bda3d0d2904c6b94709b2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@parano1d/sdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Client integration for Parano1d native assets and contracts",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=20" },
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "LICENSE", "README.md", "protocol.json"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/*.test.mjs"
+  },
+  "devDependencies": { "typescript": "5.9.3" }
+}
